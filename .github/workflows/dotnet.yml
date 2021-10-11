@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore ./AlgoExpert/AlgoExpert.sln
+      run: dotnet restore ./AlgoExpert.sln
     - name: Build
-      run: dotnet build --no-restore ./AlgoExpert/AlgoExpert.sln
+      run: dotnet build --no-restore ./AlgoExpert.sln
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./AlgoExpert/AlgoExpert.sln
+      run: dotnet test --no-build --verbosity normal ./AlgoExpert.sln

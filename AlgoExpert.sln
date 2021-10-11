@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoExpert", "AlgoExpert.csproj", "{5CE41C05-5522-40DC-A453-3B74F20B2EB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoExpert", ".AlgoExpert\AlgoExpert.csproj", "{5CE41C05-5522-40DC-A453-3B74F20B2EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoExpertTest", "..\AlgoExpertTest\AlgoExpertTest.csproj", "{981AC559-BC9A-4B80-9B42-C01378F23097}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoExpertTest", ".\AlgoExpertTest\AlgoExpertTest.csproj", "{981AC559-BC9A-4B80-9B42-C01378F23097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
